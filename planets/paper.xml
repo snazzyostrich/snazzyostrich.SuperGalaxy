@@ -1,0 +1,27 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+
+	<DialogueNode>
+		<Name>START</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Dear traveller,</Page>
+            <Page>If you have come to take a look at my beautiful face, then I regret to inform you that I have left this area already.</Page>
+            <Page>You may be asking how I exactly did that. Well, if you can repair things by looking at them and holding E, then so can I.</Page>
+            <Page>You also may be asking why I did that as well.</Page>
+            <Page>I've decided to dabble in the culinary arts. I opened a resturaunt!</Page>
+            <Page>So why have you never heard of this six-star paragon of an establishment? That's because it's floatin' out past Dark Bramble and in the deep, dark reaches of space.</Page>
+            <Page>How do I know I'm still in a stable heliocentric orbit? I don't!</Page>
+            <Page>Why do you still hear my harmonica? I looped a recording of it to mess with everyone on TH.</Page>
+            <Page>Where did I get the materials to build a resturaunt from the nonexistent ground up? Why, I stole it while nobody was looking!</Page>
+            <Page>Who are my customers? My lovely tank of anglerfish, of course! There's Kyanite, Sunstone, Fluorite, and Agate! Nobody else. Maybe I'll even run into an alien or something.</Page>
+            <Page>What do I even serve? Raw bramble. You get used to it after you try it enough times. Or maybe there's just too many splinters in my tongue to taste anymore.</Page>
+            <Page>So whoever you are, come on down (or radially??) to Feldspar's today for a nice, hearty plate of wood! Go back up into space and follow the sound of the harmonica. It should be somewhere near the ecliptic, I hope.</Page>
+			<Page>The signal will sound like the one you know but very sped up and high pitched. This is to scare the others away from it!</Page>
+			<Page>PS: I'm very proud of you for not getting chomped by one of those big fish. Keep it up!</Page>
+			<Page>PS PS: You cannot tell anyone I'm there. If you do, I'll come back and punt you into the sun.</Page>
+			<Page>Love (or hate, I don't know who you are), Feldspar</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

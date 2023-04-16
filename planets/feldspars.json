@@ -1,0 +1,87 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Feldspar's",
+
+	"Base": {
+		"surfaceSize": 15,
+		"surfaceGravity": 0
+	},
+	
+	"Orbit": {
+		"semiMajorAxis": 30000,
+		"siderealPeriod": 5,
+		"primaryBody": "Sun",
+		"showOrbitLine": false
+	},
+
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/assetbundle/supergalaxy",
+       			"path": "Assets/feldspars.prefab",
+				"scale": 4,
+				"keepLoaded": true
+			},
+			{
+       			"path": "BrittleHollow_Body/Sector_BH/Sector_GravityCannon/Interactables_GravityCannon/Prefab_NOM_TractorBeam",
+				"scale": 1,
+				"position": {"x": 0, "y": 5, "z": 0},
+				"rotation": {"x": 0, "y": 0, "z": 0}
+			},
+			{
+				"path": "DB_PioneerDimension_Body/Sector_PioneerDimension/Interactables_PioneerDimension/Pioneer_Characters/Traveller_HEA_Feldspar",
+				"scale": 1,
+				"position": {"x": -5.295386, "y": 1.495189, "z": -6.380179},
+				"rotation": {"x": 0, "y": 107.0836, "z": 0},
+				"removeChildren": [
+					"ConversationZone_Feldspar"
+				]
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Quantum Pole Path/Fragment QuantumPolePath 2/Interactables_QPP2/Prefab_NOM_GravityCrystal",
+				"scale": 1,
+				"position": {"x": -5.214589, "y": 1.495189, "z": -5.086526},
+				"rotation": {"x": 0, "y": 116.888, "z": 0}
+			}
+		],
+		"signals": [
+			{
+				"detectionRadius": 50,
+				"onlyAudibleToScope": true,
+				"audio": "planets/assets/ew.mp3",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"identificationRadius": 500,
+				"name": "Feldspar's Restauraunt",
+				"frequency": "Traveler"
+			}
+		]
+	},
+	
+	"Atmosphere": {
+		"hasOxygen": true,
+		"size": 11,
+		"atmosphereTint": {
+			"r": 204,
+			"g": 188,
+			"b": 165
+		},
+		"fogSize": 11,
+		"fogDensity": 1,
+		"fogTint": {
+			"r": 204,
+			"g": 188,
+			"b": 165
+		}
+	},
+
+	"ShipLog": {
+		"mapMode": {
+			"invisibleWhenHidden": true,
+			"revealedSprite": "planets/assets/feldsparsmap.png"
+		}
+	}
+}

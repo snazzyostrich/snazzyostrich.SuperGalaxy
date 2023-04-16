@@ -1,0 +1,25 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "DB_PioneerDimension",
+	"removeChildren": [
+		"Sector_PioneerDimension/Interactables_PioneerDimension/Pioneer_Characters/Traveller_HEA_Feldspar"
+	],
+
+	"Props": {
+		"details": [
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/Prefab_HEA_DeepFieldExhibit/DeepFieldNotes_1/plaque_paper_1 (1)",
+				"position": {"x": 18.75972, "y": -15.87992, "z": -0.6073555},
+				"rotation": {"x": 8.33917, "y": 326.7014, "z": 17.09516}
+			}
+		],
+		"dialogue": [
+			{
+				"radius": 1,
+				"range": 1,
+				"xmlFile": "planets/paper.xml",
+				"position": {"x": 18.75972, "y": -15.87992, "z": -0.6073555}
+			}
+		]
+	}
+}
